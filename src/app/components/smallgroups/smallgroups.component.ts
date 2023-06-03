@@ -12,7 +12,7 @@ export class SmallgroupsComponent implements OnInit{
 
 
   ngOnInit(): void {
-    //throw new Error('Method not implemented.');
+
   }
 
   onBtnClick(){

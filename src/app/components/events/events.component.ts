@@ -8,7 +8,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 })
 export class EventsComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+ 
   }
 
 }

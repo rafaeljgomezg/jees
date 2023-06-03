@@ -3,21 +3,22 @@
     width: 100%;
     min-height:100px;
     margin-top: 40px;
-    
-    & img{
-        display: block;
-        margin: auto;
-        width: 100%;
-        box-shadow: 10px 10px 80px rgb(134, 130, 130);
-        
-    }
-    & h1{
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-    }
-
 }
+
+#header img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    box-shadow: 10px 10px 80px rgb(134, 130, 130);
+    
+}
+
+#header h1{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
 
 .titulo {
     text-align: center;
@@ -40,43 +41,44 @@
     margin-top: 10px;
     margin-bottom: 20px;
     font-family: titilliumWeb;
-    & img{
-        width: 100%;
-        padding: 15px;
-        
-    }
-    & h5 {
-       text-align: justify;
-       padding: 15px;
-       line-height: 30px;
-    }
-    & h3{
-        padding: 15px;
-    }
-
-    
 }   
+
+.fondo1 img{
+    width: 100%;
+    padding: 15px;
+}
+
+.fondo1 h5 {
+    text-align: justify;
+    padding: 15px;
+    line-height: 30px;
+ }
+
+.fondo1 h3{
+    padding: 15px;
+}
+
 
 .fondo2{
     box-shadow: 0 0 40px gray;
     background: rgb(255, 250, 250);
     margin-top: 10px;
     font-family: titilliumWeb;
-    & img{
-        width: 100%;
-        padding: 15px;
-        
-    }
-    & h5 {
-       text-align: justify;
-        padding: 15px;
-       line-height: 30px;
-    }
+}
 
-    & h3{
-        padding: 15px;
-    }
+.fondo2 img{
+    width: 100%;
+    padding: 15px;
+}
 
+.fondo2 h5 {
+    text-align: justify;
+     padding: 15px;
+    line-height: 30px;
+ }
+
+.fondo2 h3{
+    padding: 15px;
 }
 
 

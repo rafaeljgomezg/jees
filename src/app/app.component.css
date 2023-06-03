@@ -34,13 +34,10 @@
 
 .location{
     text-align: center;
-    & img {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
 }
-
-.horarios{
+.location img {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .copyright{

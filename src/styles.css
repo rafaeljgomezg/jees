@@ -39,39 +39,33 @@ header {
     height: 130px;
     background: rgba(71, 139, 223, 0.8);
     text-transform: uppercase;
+}
 
-    & .logo {
-       
-            width: 129px;
-    }
-    & ul {
-        height: inherit;
-        & li {
-            display: block;
-            margin: 0px auto;
-            text-align: center;
-            line-height: 130px;
-            font-family: titilliumWeb;
-            & a {
-                display: block;
-                padding-right: 20px;
-                padding-left: 20px;
-                height: inherit;
-                text-decoration: none;
-                color: white;
-                transition: all 300ms;
-            }
-        
-            & a:hover, .actived {
-                background: rgba(0,0,0,0.7);
-                
-            }
-        
-           
-        }
-        
-    }
-   
+header .logo {
+    width: 129px;
+}
+header ul {
+    height: inherit;
+}
+header ul li {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 130px;
+    font-family: titilliumWeb;
+}
+header ul li a {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+}
+header ul li a:hover, .actived {
+    background: rgba(0,0,0,0.7);
+    
 }
 
 #content {
@@ -84,10 +78,10 @@ header {
     background: rgba(255,255,255,0.7);
     padding-left: 10px;
     padding-right: 10px;
+}
 
-    & .real{
-        padding-top: 15px;
-    }
+#content .real{
+    padding-top: 15px;
 }
 
 
@@ -103,79 +97,66 @@ footer{
     color: rgba(255, 255, 255, 0.842);
     justify-content: center;  
     margin-top: 10px;
-    .fila1, fila2 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    & .fila1 {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        background: rgba(71, 139, 223, 0.8);
-        text-align: center;
-        
-        & p{
-            font-size:140%    
-        }
-   	   
-	}
-
-    & .fila2 {
-        margin-top:20px;
-        background-color: rgb(54, 54, 54);
-        min-height: 350px;
-        padding-top: 15px;
-        width: 100%;
-        & .logo{
-            display: block;
-            margin: auto;
-            width: 77%;
-        }
-        & p {
-            text-align: center;
-            & i, span {
-                margin-left: 5px;
-                color: #e1e6ef;
-               
-                
-            }
-            & span{
-                font-family: yanone;
-            }
-        }
-        & .redes-sociales{
-            width: 5vw;
-            margin-right: auto;
-            margin-left: auto;
-            display:inline-block;
-            align-items: center;
-            cursor: pointer;
-            
-            
-
-        }
-
-        
-    }
-
-    & #iconos-cristianos{
-        & i{
-            margin-left: 20px;
-            margin-right: 20px;
-            
-            
-        }
-    }
-
-    
 }
+footer #iconos-cristianos i{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer .fila1, footer .fila2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .fila1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(71, 139, 223, 0.8);
+    text-align: center;
+}
+
+footer .fila1 p{
+    font-size:140%    
+}
+footer .fila2 {
+    margin-top:20px;
+    background-color: rgb(54, 54, 54);
+    min-height: 350px;
+    padding-top: 15px;
+    width: 100%;
+}
+footer .fila2 .logo{
+    display: block;
+    margin: auto;
+    width: 77%;
+}
+footer .fila2 p {
+    text-align: center;
+}
+footer .fila2 .redes-sociales{
+    width: 5vw;
+    margin-right: auto;
+    margin-left: auto;
+    display:inline-block;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .fila2 p i, footer .fila2 p span {
+    margin-left: 5px;
+    color: #e1e6ef;
+}
+footer .fila2 p span{
+    font-family: yanone;
+}
+
 
 table{
     padding-inline-start: 15px;
-    & td, tr {
-        padding: 10px;
-        text-align: center;
-        
-    }
+}
+table td, table tr {
+    padding: 10px;
+    text-align: center;
 }
 
 #mision{

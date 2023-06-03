@@ -15,26 +15,24 @@
     text-align: justify;
     font-family: titilliumWeb;
     margin-bottom: 18px;
-    & img {
-        width: 100%;
-        box-shadow: 0 0 10px black;
-        border-radius: 13px;
-    }
+}
 
-    & .texto{
-        padding: 15px;
-        display: block;
-        float: right;
-         width: 50%;
-    }
-    
-    & .imagen{
-        padding: 15px;
-        display: block;
-         float: left;
-         width: 50%;
-    }
-   
+.fondo1 img {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 13px;
+}
+.fondo1 .texto{
+    padding: 15px;
+    display: block;
+    float: right;
+     width: 50%;
+}
+.fondo1 .imagen{
+    padding: 15px;
+    display: block;
+     float: left;
+     width: 50%;
 }
 
 .fondo2{
@@ -47,35 +45,31 @@
     text-align: justify;
     font-family: titilliumWeb;
     margin-bottom: 40px;
-    
-    & img {
-        width: 100%;
-        box-shadow: 0 0 10px black;
-        border-radius: 13px;
-    }
-    & button{
-        display: block;
-        margin: auto;
-        margin-top: 20px;
-        font-family: yanone;
-        font-size: 1em;
-    }
+}
 
-    & .texto{
-        padding: 15px;
-        display: block;
-        float: right;
-         width: 50%;
-    }
-    
-    & .imagen{
-        padding: 15px;
-        display: block;
-         float: left;
-         width: 50%;
-    }
-
-
+.fondo2 img {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    border-radius: 13px;
+}
+.fondo2 .imagen{
+    padding: 15px;
+    display: block;
+     float: left;
+     width: 50%;
+}
+.fondo2 .texto{
+    padding: 15px;
+    display: block;
+    float: right;
+     width: 50%;
+}
+.fondo2 button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-family: yanone;
+    font-size: 1em;
 }
 
 

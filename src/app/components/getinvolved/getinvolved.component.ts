@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $: any;
 
 
 
@@ -11,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 export class GetinvolvedComponent implements OnInit{
   ngOnInit(): void {
     $(function(){
-      ($("#tabs")as any).tabs();
+      $("#tabs").tabs();
     });
   }
 
