@@ -1,0 +1,115 @@
+.fondo0{
+    margin-bottom: 40px;
+    font-family: titilliumWeb;
+    text-align: center;
+}
+
+
+.fondo1{
+    min-height: 420px;
+    background: rgb(255, 250, 250);
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: titilliumWeb;
+    margin-bottom: 18px;
+    & img {
+        width: 100%;
+        box-shadow: 0 0 10px black;
+        border-radius: 13px;
+    }
+
+    & .texto{
+        padding: 15px;
+        display: block;
+        float: right;
+         width: 50%;
+    }
+    
+    & .imagen{
+        padding: 15px;
+        display: block;
+         float: left;
+         width: 50%;
+    }
+   
+}
+
+.fondo2{
+    display: block;
+    min-height: 420px;
+    padding: 20px;
+    background: rgb(230, 227, 227);
+    box-shadow: 0 0 5px gray;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: titilliumWeb;
+    margin-bottom: 40px;
+    
+    & img {
+        width: 100%;
+        box-shadow: 0 0 10px black;
+        border-radius: 13px;
+    }
+    & button{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        font-family: yanone;
+        font-size: 1em;
+    }
+
+    & .texto{
+        padding: 15px;
+        display: block;
+        float: right;
+         width: 50%;
+    }
+    
+    & .imagen{
+        padding: 15px;
+        display: block;
+         float: left;
+         width: 50%;
+    }
+
+
+}
+
+
+.subTitulo{
+    color: rgb(82, 136, 236);
+    
+}
+
+
+
+
+
+@media screen and (max-width: 780px) {
+
+    
+    .fondo2 .texto, .fondo1 .texto {
+        display: block;
+        width: 100%;
+        float: left;
+       
+    }
+
+    .fondo2 .imagen, .fondo1 .imagen {
+        display: none;
+
+    }
+
+    h4{
+        font-size: 0.7em;
+    }
+
+    .fondo1, .fondo2 {
+        min-height: 300px;
+    }
+    
+    
+}

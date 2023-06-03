@@ -1,0 +1,55 @@
+#header {
+    display: block;
+    width: 100%;
+    min-height:100px;
+    margin-top: 40px;
+    
+    & img{
+        display: block;
+        margin: auto;
+        width: 100%;
+        box-shadow: 10px 10px 80px rgb(134, 130, 130);
+        
+    }
+    & h1{
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+.texto-involved{
+    text-align: justify;
+    padding: 15px;
+    font-family: titilliumWeb;
+    font-size: x-large;
+}
+
+.pestana{
+   
+    font-size: 1.8em;
+}
+
+
+
+.nav-tabs .nav-link.active,
+.show>.nav-tabs .nav-link{
+    background: rgba(71, 139, 223, 0.8) !important;
+    color:white;
+}
+
+@media screen and (max-width: 780px) {
+    .texto-involved {
+        & p {
+            font-size: 0.7em;
+        }
+    }
+
+    .tabulador{
+        font-size: 0.7em;
+    }
+
+
+
+}
+

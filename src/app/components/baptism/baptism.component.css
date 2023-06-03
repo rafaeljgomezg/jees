@@ -1,0 +1,89 @@
+
+.bap-header{
+      margin-top: 10px;
+      font-family: ttitilliumweb;
+      text-align: center;
+    & h5{
+        margin-top: 15px;
+    }
+    
+}
+
+.bap-content{
+    padding-top: 15px;
+    text-align: center;
+    & p{
+        font-size: 0.8em;
+    }
+
+    & img{
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 10px;
+       
+    }
+
+    & .icons{
+        width: 15%;
+    }
+}
+
+.col-6 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+.fondo1{
+    background: rgb(255, 250, 250);
+    padding: 20px;
+    box-shadow: 0 0 40px gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: titilliumWeb;
+    margin-bottom: 40px;
+    
+    & #bat-img1, #bat-img3 {
+        float : right;
+        width: 50%;
+    }
+    & #bat-text1, #bat-text3 {
+        float: left;
+        width: 50%;
+    }
+}
+
+.fondo2{
+    padding: 20px;
+    background: rgb(230, 227, 227);
+    box-shadow: 0 0 40px gray;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: titilliumWeb;
+    margin-bottom: 40px;
+
+    & #bat-img2 {
+        float: right;
+        width: 50%;
+    }
+    & #bat-text2{
+        float: left;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    #bat-img1, #bat-img2, #bat-img3 {
+        display: none;
+    }
+    .fondo1 #bat-text1, .fondo2 #bat-text2, .fondo1 #bat-text3{
+        width: 100%;
+        font-size: 0.8em;
+        float: none;
+    }
+    
+    
+}

@@ -1,0 +1,93 @@
+
+#hambur {
+    display: none;
+    margin: auto;
+}
+#hambur1 {
+    display: none;
+    margin: auto;
+}
+
+.flex{
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.fila2Flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.logo-footer, .location,.horarios{
+    font-size:1.2vw;
+}
+
+.logo-footer{
+    width: 20%;
+}
+
+.location{
+    text-align: center;
+    & img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.horarios{
+}
+
+.copyright{
+    margin-top: 15px;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 780px) {
+    
+    #nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        background-color: rgba(71, 139, 223, 0.8);
+    }
+
+    .fila1 p {
+        font-size: 1em;
+    }
+
+
+    .logo-footer, .location, .horarios, .copyright {
+        font-size:2vw;
+    }
+    
+    .logo-footer{
+        display: none;
+    }
+
+    .fila2{
+        min-height: 150px;
+    }
+    #flex {
+        display: flexbox;
+    }
+    #content{
+        min-height: 200px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 920px) {
+
+
+}

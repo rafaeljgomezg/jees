@@ -1,1 +1,189 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: yanone;
+    src: url('./assets/fonts/YanoneKaffeesatz-Light.ttf');
+}
+
+@font-face {
+    font-family: fingerPaintRegular;
+    src: url('./assets/fonts/FingerPaint-Regular.ttf');
+}
+
+@font-face {
+    font-family: titilliumWeb;
+    src: url('./assets/fonts/TitilliumWeb-Light.ttf');
+}
+
+
+/* Generales */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(146, 140, 140, 0.5);
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+}
+
+.clearfix {
+    float: none;
+    clear: both;   
+}
+
+
+/*  Cabecera (Header) */
+header {
+    display: block;
+    width: 100%;
+    height: 130px;
+    background: rgba(71, 139, 223, 0.8);
+    text-transform: uppercase;
+
+    & .logo {
+       
+            width: 129px;
+    }
+    & ul {
+        height: inherit;
+        & li {
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+            line-height: 130px;
+            font-family: titilliumWeb;
+            & a {
+                display: block;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: inherit;
+                text-decoration: none;
+                color: white;
+                transition: all 300ms;
+            }
+        
+            & a:hover, .actived {
+                background: rgba(0,0,0,0.7);
+                
+            }
+        
+           
+        }
+        
+    }
+   
+}
+
+#content {
+    min-height: 790px;
+    width: 95%;
+    margin: 0px auto;
+    box-shadow: 0 0 140px black;
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+    background: rgba(255,255,255,0.7);
+    padding-left: 10px;
+    padding-right: 10px;
+
+    & .real{
+        padding-top: 15px;
+    }
+}
+
+
+
+/* FOOTER  */
+
+footer{
+    font-family: titilliumWeb;
+    background: rgba(146, 140, 140, 0.5);
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.842);
+    justify-content: center;  
+    margin-top: 10px;
+    .fila1, fila2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    & .fila1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: rgba(71, 139, 223, 0.8);
+        text-align: center;
+        
+        & p{
+            font-size:140%    
+        }
+   	   
+	}
+
+    & .fila2 {
+        margin-top:20px;
+        background-color: rgb(54, 54, 54);
+        min-height: 350px;
+        padding-top: 15px;
+        width: 100%;
+        & .logo{
+            display: block;
+            margin: auto;
+            width: 77%;
+        }
+        & p {
+            text-align: center;
+            & i, span {
+                margin-left: 5px;
+                color: #e1e6ef;
+               
+                
+            }
+            & span{
+                font-family: yanone;
+            }
+        }
+        & .redes-sociales{
+            width: 5vw;
+            margin-right: auto;
+            margin-left: auto;
+            display:inline-block;
+            align-items: center;
+            cursor: pointer;
+            
+            
+
+        }
+
+        
+    }
+
+    & #iconos-cristianos{
+        & i{
+            margin-left: 20px;
+            margin-right: 20px;
+            
+            
+        }
+    }
+
+    
+}
+
+table{
+    padding-inline-start: 15px;
+    & td, tr {
+        padding: 10px;
+        text-align: center;
+        
+    }
+}
+
+#mision{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
